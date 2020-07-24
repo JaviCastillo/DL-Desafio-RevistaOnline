@@ -1,0 +1,43 @@
+/* HEADER 
+=============================================*/
+
+@media only screen and (max-width: 768px) {
+    .header__nav-nosotros{
+        display: none;
+    }
+}
+
+.header {
+    width: 100%;
+    padding: 2vw;
+    border-bottom: 1px solid gray
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header__nav {
+    text-align: right;
+    float: right;
+
+    ul li{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            font-weight: bold;
+        }
+    }
+
+    input{
+        border-radius: 30px;
+    }
+}
