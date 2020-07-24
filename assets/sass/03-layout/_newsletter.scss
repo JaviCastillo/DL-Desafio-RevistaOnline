@@ -1,0 +1,38 @@
+/* NEWSLETTER 
+=============================================*/
+
+.newsletter {
+    clear: both;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    h2{
+        font-size: 24px;
+    }
+
+    p{
+        margin: 15px;
+    }
+}
+
+
+.newsletter__form-input,
+.newsletter__form-button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.newsletter__form-button {
+    background-color: coral;
+    color: white;
+
+    &:hover{
+        background-color: rgb(255, 159, 124);
+    }
+}

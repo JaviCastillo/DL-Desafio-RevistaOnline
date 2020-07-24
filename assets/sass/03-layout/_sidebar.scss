@@ -1,0 +1,58 @@
+/* SIDEBAR 
+=============================================*/
+
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+.sidebar {
+    width: 20vw;
+    padding-top: 30px;
+    padding-right: 30px;
+    float: right;
+}
+
+.sidebar__header {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.sidebar__tags {
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            padding: 2px 4px;
+            background-color: steelblue;
+            margin-right: 1px;
+            color: white;
+        }
+    }
+    
+}
+
+.sidebar__destacados {
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.sidebar__destacados-card {
+    padding-top: 15px;
+    img {
+    width: 100%;
+    }
+}
+
+
+
+
+
